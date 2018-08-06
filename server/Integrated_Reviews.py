@@ -1,3 +1,4 @@
+# This script finally performs sentiment analysis on the extracted reviews from google and perform senti analysis using our trained model
 from pyspark.ml import PipelineModel
 from pandas import DataFrame
 from pyspark import SparkContext
