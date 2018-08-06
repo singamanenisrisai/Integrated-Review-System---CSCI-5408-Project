@@ -18,6 +18,43 @@ Integrated Review System to Conclude Ratings of Different Places using Machine L
 ##### Sentiment Analysis; In this step we performed sentiment analysis on the pre-processed dataset by using Vader sentiment analysis library. The library was imported from GitHub repository, it is lexicon and rule-based sentiment analysis tool that was specially designed for analysing the emotions in social media and released under MIT open source license (Cjhutto, 2018). Finally, we derived the review text, sentiment of the text i.e., either positive, negative or neutral and the sentiment score.
 #### Step4:
 ##### Model Training; In this step we started towards our model training. The outcome data of step3 was used for the model training. We used spark Machine Learning libraries for feature extraction and classification. Regex Tokenizer and Count vectors libraries are used for feature extraction and logistic regression algorithm was used for the classification.
+#### Step5:
+##### Reviews streaming; In this step, we enrolled for Google Maps API. It is a cluster of different level of requests like Google Places Search API, Google Places Details API, Google Place Photos API and many more. To extract reviews from this API, we need to make two API request calls. Initially, we must make a request call for Google Place Search API, wherein the result will be a Nested JavaScript Object Notation (JSON). We passed through the JSON response to extract place ID of a restaurant and used it as an input to Google Place Details API. This result in another Nested JSON where we have multiple parameters like reviews, place description, and many more. Finally, we converted the output to Extensible Mark-up Language (XML) format for ease of parsing through the data and converted the output file into Comma Separated Values (CSV).
+#### Step6:
+##### Test Data Prediction; In this step the test data of reviews which was streamed from the step5 was loaded into the trained model using pipeline library form the Spark libraries. The predictions were derived and labelled as Sentiment Text, and Sentiment of the reviews as positive, negative or neutral.
+#### Step7:
+##### Consolidated Review; In this step, we calculated the average of the predictions and provided the final integrated review of the restaurant.
+#### DATA SOURCES
+##### For this project, we used only one open dataset i.e., Yelp reviews, that is extracted from the Kaggle website. Also, Google reviews of individual restaurants are streamed using the google maps platform, google places and search API’s.
+#### TOOLS, ALGORITHM & PROGRAMMING LANGUAGES
+##### To implement all these operations, we used “Python” as our programming language. Python is well-known for its libraries and ease of accessing API’s. For this project, Google Places and Search API’s are used with python by importing their respective packages. Python also has extensive library support like Pandas which is used for data manipulation and analysis.
+##### To perform Data Analytics and Management on the Dataset we used “Apache Spark”. Apache Spark provides quick and effective processing on data, either storing or streaming using the immutable Resilient Distributed Dataset (RDDs). Spark Machine Learning library is a machine learning framework used for classification, regression and clustering the dataset.
+##### Python and Spark are installed on amazon EC2 instance. Alongside these tools, Vader Sentiment library was used for sentiment analysis and postman tool was used for API requests.
+#### WORK BREAKDOWN
+##### The entire work is break down into four sprints.
+#### Sprint1:
+##### Sprint-one consists of requirement analysis and data pre-processing. This was a challenging sprint, with gathering all the requirements and finalising the dataset. All decisions were made in this sprint. Stared with R-Studio for the data management and analysis. But unfortunately, we need to roll back in this step, because of the file size limitations. Later, in this sprint we completed all the data pre-processing work. However, the sprint was delayed than the estimated timeline.
+#### Sprint2:
+##### Sprint-two consists of sentiment analysis on the pre-processed data from the sprint one. This was a small sprint and we manged to achieve this sprint in the estimated timeline. By using the lexicon and rule-based Vader sentiment analysis library, we performed the sentiment analysis on the extracted open dataset.
+#### Sprint3:
+##### Sprint-three consists of Model Training, using the training dataset that was derived from the sprint two. This sprint was also been challenging and hard time in achieving the accuracy of the model using the logistic regression classification machine learning algorithm. As mentioned earlier the dataset was a large file, we break down the dataset into 20,000 rows of small chunks. We tried with different combinations of chunks and observed the accuracy fluctuations around 60 to 65 percent. Finally, we achieved approximately 65 percent accuracy model.
+#### Sprint4:
+##### Sprint-four consists of test data streaming and performance evaluation. In this sprint, we encountered problems with Google API’s. When we tried to fetch the latest reviews of the restaurant, we could not get the reviews by using google search API. Therefore, we used, google places API and the manual work around was given by hardcoding the place ID into the request to the google searchAPI. Later the python script was given to pipeline the process. Also, the conclusion was drawn by loading the test data into trained model and the average ratings were calculated from the predictions of the model. This sprint took more time than any other sprint with finalizing the conclusions.
+##### Finally, we achieved the target in four sprints and the estimated timeline. However, we missed the individual sprint timelines and required to adjust the timelines in between the sprints.
+#### LIMITATIONS
+##### As part of this project there are few limitations. The free version of Google API’s can fetch only five reviews per request and each key can do two requests per day.
+The dataset used to train model is from Kaggle, and it is not updated on a regular basis, we tried requesting the Yelp to provide recent data to train model. But, it is available to premium users wherein we must pay for the data. Hence, we decided to use the dataset from Kaggle and left the updating part for future purposes.
+#### FUTURE WORK
+##### There can be lot of improvements to enhance the performance and the accuracy of the system. The following are some of the future scope of the project
+• With Google API premium access, large data could be streamed.
+• Different classification algorithms could be used to improve the accuracy of the model.
+• Comparison algorithm can be developed to compare the ratings and reviews.
+• Importantly, there can be a possibility of developing a front-end application for users and business.
+Example: Input the restaurant name, search different sources and extract data, and load the test data and predict the scores and emotions.
+• Visualizations could be made to help the customers and business by providing the statistics.
+• Data can be streamed in real time using Online Transaction Processing (OLTP) from Yelp and train the model on a regular schedule to improve the accuracy of the Model.
+#### CRITICAL REVIEW
+##### We believe, the developed Integrated Review System achieved the purpose of the aimed project. However, there are necessities of research and improvements in some parts such as exploring different classification algorithms and getting the latest datasets to improve the accuracy of the model. Also, some work needs to be done on fetching the test data from different sources.
 
 #### Submitted by:
 #### Hemanth Kurra (B00784050)
