@@ -1,0 +1,142 @@
+<PlaceDetailsResponse>
+ <status>OK</status>
+ <result>
+  <name>Extreme Pita</name>
+  <vicinity>Life Sciences Centre - Oceanography, 1355 Oxford Street, Halifax</vicinity>
+  <type>restaurant</type>
+  <type>food</type>
+  <type>point_of_interest</type>
+  <type>establishment</type>
+  <formatted_phone_number>(902) 494-1928</formatted_phone_number>
+  <formatted_address>Life Sciences Centre - Oceanography, 1355 Oxford St, Halifax, NS B3H 4J1, Canada</formatted_address>
+  <address_component>
+   <long_name>Life Sciences Centre - Oceanography</long_name>
+   <short_name>Life Sciences Centre - Oceanography</short_name>
+   <type>premise</type>
+  </address_component>
+  <address_component>
+   <long_name>1355</long_name>
+   <short_name>1355</short_name>
+   <type>street_number</type>
+  </address_component>
+  <address_component>
+   <long_name>Oxford Street</long_name>
+   <short_name>Oxford St</short_name>
+   <type>route</type>
+  </address_component>
+  <address_component>
+   <long_name>South End</long_name>
+   <short_name>South End</short_name>
+   <type>neighborhood</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halifax</long_name>
+   <short_name>Halifax</short_name>
+   <type>locality</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halifax</long_name>
+   <short_name>Halifax</short_name>
+   <type>administrative_area_level_3</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Halifax Regional Municipality</long_name>
+   <short_name>Halifax Regional Municipality</short_name>
+   <type>administrative_area_level_2</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Nova Scotia</long_name>
+   <short_name>NS</short_name>
+   <type>administrative_area_level_1</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>Canada</long_name>
+   <short_name>CA</short_name>
+   <type>country</type>
+   <type>political</type>
+  </address_component>
+  <address_component>
+   <long_name>B3H 4J1</long_name>
+   <short_name>B3H 4J1</short_name>
+   <type>postal_code</type>
+  </address_component>
+  <geometry>
+   <location>
+    <lat>44.6356717</lat>
+    <lng>-63.5944250</lng>
+   </location>
+   <viewport>
+    <southwest>
+     <lat>44.6341785</lat>
+     <lng>-63.5964311</lng>
+    </southwest>
+    <northeast>
+     <lat>44.6368764</lat>
+     <lng>-63.5937332</lng>
+    </northeast>
+   </viewport>
+  </geometry>
+  <rating>4.3</rating>
+  <url>https://maps.google.com/?cid=10066493545368081692</url>
+  <icon>https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png</icon>
+  <reference>CmRSAAAAxNuglTq0fxqwcQ6c8J6nWgn9mIy8B10UDkh9c32UC7iSTJaNsJ2LGwzjPK5zOkNAbQkRPwHBpoLtHbxcg9Rfen9s-1LMiiveMscCDXNXmMVvOHm2ZoqZFOH7U8Ipr3rTEhC0FWwQUwdjkHHFHk2s1O0mGhSCPVZ5wtDZmB5B5IuQvc84URZT3g</reference>
+  <id>b7255d173e4691ab2ec6c46cbc18d8ce9ea2b809</id>
+  <international_phone_number>+1 902-494-1928</international_phone_number>
+  <website>http://www.extremepita.com/</website>
+  <review>
+   <time>1504708337</time>
+   <text>Staff have always been very friendly. The line can be a bit much at times, but is always handled quickly.
+
+The pitas themselves are always very good.</text>
+   <author_name>Ian MacDonald</author_name>
+   <author_url>https://www.google.com/maps/contrib/106522895667423765642/reviews</author_url>
+   <rating>4.0</rating>
+   <language>en</language>
+   <profile_photo_url>https://lh6.googleusercontent.com/-KN__6TAECtU/AAAAAAAAAAI/AAAAAAAAAWA/bast_g0mgS0/s128-c0x00000000-cc-rp-mo-ba5/photo.jpg</profile_photo_url>
+   <relative_time_description>11 months ago</relative_time_description>
+  </review>
+  <review>
+   <time>1519329152</time>
+   <text>Yummdidily yum!</text>
+   <author_name>Kevin O'Keefe</author_name>
+   <author_url>https://www.google.com/maps/contrib/109418996916217696504/reviews</author_url>
+   <rating>5.0</rating>
+   <language>en</language>
+   <profile_photo_url>https://lh6.googleusercontent.com/-nrCWTFN6cx8/AAAAAAAAAAI/AAAAAAAAANw/5Xm7RC07viU/s128-c0x00000000-cc-rp-mo-ba2/photo.jpg</profile_photo_url>
+   <relative_time_description>5 months ago</relative_time_description>
+  </review>
+  <review>
+   <time>1506723333</time>
+   <text>Chicken wrap was great</text>
+   <author_name>Dennis Fowler</author_name>
+   <author_url>https://www.google.com/maps/contrib/109171852179114299841/reviews</author_url>
+   <rating>4.0</rating>
+   <language>en</language>
+   <profile_photo_url>https://lh5.googleusercontent.com/-JxE_J8QV3HU/AAAAAAAAAAI/AAAAAAAAAAA/AAnnY7od3xNnXUfFK2ShN-BCN0l1qkpEFQ/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg</profile_photo_url>
+   <relative_time_description>10 months ago</relative_time_description>
+  </review>
+  <review>
+   <time>1369611546</time>
+   <text>Chicken shawarma wrap has all the taste of shawarma without garlic aftertaste</text>
+   <author_name>Matthew Joubert</author_name>
+   <author_url>https://www.google.com/maps/contrib/103666727478026319108/reviews</author_url>
+   <rating>4.0</rating>
+   <language>en</language>
+   <profile_photo_url>https://lh6.googleusercontent.com/-4t76WeslGvg/AAAAAAAAAAI/AAAAAAAAA2Y/A5ellAqLk-w/s128-c0x00000000-cc-rp-mo/photo.jpg</profile_photo_url>
+   <relative_time_description>5 years ago</relative_time_description>
+  </review>
+  <utc_offset>-180</utc_offset>
+  <adr_address>&lt;span class="extended-address"&gt;Life Sciences Centre - Oceanography&lt;/span&gt;, &lt;span class="street-address"&gt;1355 Oxford St&lt;/span&gt;, &lt;span class="locality"&gt;Halifax&lt;/span&gt;, &lt;span class="region"&gt;NS&lt;/span&gt; &lt;span class="postal-code"&gt;B3H 4J1&lt;/span&gt;, &lt;span class="country-name"&gt;Canada&lt;/span&gt;</adr_address>
+  <place_id>ChIJkaHLhCMiWksRHFVtgYtes4s</place_id>
+  <scope>GOOGLE</scope>
+  <plus_code>
+   <global_code>87PRJCP4+76</global_code>
+   <compound_code>JCP4+76 Halifax, NS, Canada</compound_code>
+  </plus_code>
+ </result>
+</PlaceDetailsResponse>
