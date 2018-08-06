@@ -47,12 +47,12 @@ The dataset used to train model is from Kaggle, and it is not updated on a regul
 #### FUTURE WORK
 ##### There can be lot of improvements to enhance the performance and the accuracy of the system. The following are some of the future scope of the project
 • With Google API premium access, large data could be streamed.<br />
-• Different classification algorithms could be used to improve the accuracy of the model.
-• Comparison algorithm can be developed to compare the ratings and reviews.
-• Importantly, there can be a possibility of developing a front-end application for users and business.
-Example: Input the restaurant name, search different sources and extract data, and load the test data and predict the scores and emotions.
-• Visualizations could be made to help the customers and business by providing the statistics.
-• Data can be streamed in real time using Online Transaction Processing (OLTP) from Yelp and train the model on a regular schedule to improve the accuracy of the Model.
+• Different classification algorithms could be used to improve the accuracy of the model.<br />
+• Comparison algorithm can be developed to compare the ratings and reviews.<br />
+• Importantly, there can be a possibility of developing a front-end application for users and business.<br /><br />
+Example: Input the restaurant name, search different sources and extract data, and load the test data and predict the scores and emotions.<br />
+• Visualizations could be made to help the customers and business by providing the statistics.<br />
+• Data can be streamed in real time using Online Transaction Processing (OLTP) from Yelp and train the model on a regular schedule to improve the accuracy of the Model.<br />
 #### CRITICAL REVIEW
 ##### We believe, the developed Integrated Review System achieved the purpose of the aimed project. However, there are necessities of research and improvements in some parts such as exploring different classification algorithms and getting the latest datasets to improve the accuracy of the model. Also, some work needs to be done on fetching the test data from different sources.
 
