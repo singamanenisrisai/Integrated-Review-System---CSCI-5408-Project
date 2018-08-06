@@ -12,3 +12,6 @@ print("++++++++ %s  +++++++" % str(model))
 predictions = model.transform(df.select("SentimentText"))
 predictions.select("SentimentText","prediction").show()
 predictions.select("SentimentText","prediction").toPandas().to_csv("Integrated_Reviews.csv")
+
+#References:
+# Dalhousie University - CSCI 5408 Assignments.
