@@ -46,7 +46,7 @@ Integrated Review System to Conclude Ratings of Different Places using Machine L
 The dataset used to train model is from Kaggle, and it is not updated on a regular basis, we tried requesting the Yelp to provide recent data to train model. But, it is available to premium users wherein we must pay for the data. Hence, we decided to use the dataset from Kaggle and left the updating part for future purposes.
 #### FUTURE WORK
 ##### There can be lot of improvements to enhance the performance and the accuracy of the system. The following are some of the future scope of the project
-• With Google API premium access, large data could be streamed.
+• With Google API premium access, large data could be streamed.<br />
 • Different classification algorithms could be used to improve the accuracy of the model.
 • Comparison algorithm can be developed to compare the ratings and reviews.
 • Importantly, there can be a possibility of developing a front-end application for users and business.
