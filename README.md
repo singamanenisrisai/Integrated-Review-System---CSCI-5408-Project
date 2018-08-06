@@ -56,6 +56,15 @@ Example: Input the restaurant name, search different sources and extract data, a
 #### CRITICAL REVIEW
 ##### We believe, the developed Integrated Review System achieved the purpose of the aimed project. However, there are necessities of research and improvements in some parts such as exploring different classification algorithms and getting the latest datasets to improve the accuracy of the model. Also, some work needs to be done on fetching the test data from different sources.
 
+#### REFERENCES 
+[1]. Extract, transform, load. (2018, May 24). Retrieved from https://en.wikipedia.org/wiki/Extract,_transform,_load <br />
+[2]. Google APIs Explorer. (n.d.). Retrieved from https://developers.google.com/apis-explorer/#p/ <br />
+[3]. Kaggle: Your Home for Data Science. (n.d.). Retrieved from https://www.kaggle.com/<br />
+[4]. Yelp Dataset. (n.d.). Retrieved from https://www.yelp.com/dataset<br />
+[5]. C. (2018, April 22). Cjhutto/vaderSentiment. Retrieved from https://github.com/cjhutto/vaderSentiment <br />
+[6]. Summary - Canadian Industry Statistics. (2017, May 31). Retrieved from https://www.ic.gc.ca/app/scr/app/cis/summary-sommaire/72;jsessionid=00016sZQOr0kEBege6Dgbmxw9p-:D197QKJL8 <br />
+[7]. Documentation | Apache Spark. (n.d.). Retrieved from https://spark.apache.org/documentation.html<br />
+
 #### Submitted by:
 #### Hemanth Kurra (B00784050)
 #### Srisaichand Singamaneni (B00792835)
