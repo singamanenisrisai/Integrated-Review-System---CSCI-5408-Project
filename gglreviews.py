@@ -1,4 +1,4 @@
-
+# This python script is used to import XML from Google Places using API key
 #!/usr/bin/env python3
 
 import json
