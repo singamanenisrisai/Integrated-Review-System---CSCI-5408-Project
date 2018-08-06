@@ -1,3 +1,4 @@
+# This script is used to perform sentiment analysis on the data
 #!/usr/bin/env python3
 import pandas as pnd
 dataoutput = pnd.read_csv("chunk0.csv")
@@ -49,3 +50,5 @@ print(dataoutput)
 
 SentiFinal.to_csv("FinalReview.csv", index=False)
 dataoutput.to_csv("sentiReviews.csv", index=False)
+
+#Reference - CSCI 5408 Dalhousie University - Assignments
